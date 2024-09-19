@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 40px;
+    background-color: #EEEEEE;
+  }
+.full-block{
+    display: flex;
+    padding-top: 30px;
+}
+
+.leftSide{
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.vertical-line{
+    border-left: 1px solid gray;
+    height: 110vh;
+    padding-right: 60px;
+    padding-top: 40px;
+}
+
+h2{
+    padding-top: 10px;
+}
+
+td{
+    padding-top: 3px;
+}
+
+.firstBlock{
+    height: 40vh;
+    width: 100%;
+    background-color: #7CB9E8;
+    margin-top: 20px ;
+    margin-right: 20px ;
+}
+
+.full-container{
+    padding-right: 20px;
+}
+
+.secondBlock{
+    height: 7vh;
+    width: 100%;
+    background-color: #7CB9E8;
+    margin-top: 30px;
+
+}
+
+.dotted-circle{
+    height: 31vh;
+    width: 36vh;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 40%;
+    border: 7px solid #002D62;
+}
+
+.circle{
+    height: 30vh;
+    width: 35vh;
+    border-radius: 50%;
+    background-color: #F0F8FF;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    right: 5px;
+    bottom: 5px;
+}
+
+img{
+    height: 30vh;
+    width: 35vh;
+    border-radius: 50%;
+}
+
+.myName{
+    height: 10vh;
+    width: 30%;
+    background-color:#002D62 ;
+    position: absolute;
+    top:40%;
+    left: 35%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.details{
+    margin: 10px;
+    text-align: center;
+}
+
+ul{
+    padding-left: 10%;
+    
+}
+
+.rightSide{
+    margin-right: 50px;
+}
+

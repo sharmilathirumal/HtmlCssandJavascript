@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Upgrade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="eventupgradecss.css" />
+  </head>
+  <body>
+    <form action="#" method="post">
+    <div class="container">
+      <div class="top-content">
+        <h1>Event 1</h1>
+        <p id="seats-count">Number of available seats: 23</p>
+      </div>
+      <div class="innnerBlock">
+        <div class="insideBlock">
+          <div class="rectangle">
+            <div class="circle" style="text-align: center;">Image</div>
+          </div>
+          <table>
+            <tr>
+              <td><label for="name">Name:</label></td>
+              <td><input type="text" id="name" required/></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td><input type="email" id="email" required/></td>
+            </tr>
+            <tr>
+              <td><label for="phone">Phone No.:</label></td>
+              <td><input type="tel" id="phone" required/></td>
+            </tr>
+            <tr>
+              <td><label>Number of seats:</label></td>
+              <td>
+                <select id="options">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="attendee">Name of Attendee 2:</label></td>
+              <td><input type="text" id="attendee"/></td>
+            </tr>
+          </table>
+        </div>
+        <div class="btns">
+          <button onclick="update()" id="btn1">Submit</button>
+          <button id="btn2" onclick="cancelDetails()">Cancel</button>
+        </div>
+      </div>
+    </div>
+</form>
+<script src="eventupgradejs.js"></script>
+  </body>
+</html>
